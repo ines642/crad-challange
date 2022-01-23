@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Outfit;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+body{ 
+    height: 100vh;  
+    margin: 0;
+    background: hsl(217, 54%, 11%);
+    
+    font-family: Outfit ;
+    
+}
+.con{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+  
+   
+}
+.con1{
+    height: 63% ;
+    width: 25%;
+    max-width: 245px;
+    background:  hsl(216, 50%, 16%);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+    box-shadow: 0 10px 10px 10px hsl(216, 71%, 8%);
+    z-index: 1;
+    min-width: 188px;
+    min-height: 407px;
+    
+  
+}
+.con2{
+    height: 80% ;
+    width: 80%;
+  min-width: 162px;
+    position: absolute;
+    border-bottom: solid 0.001em hsl(215, 32%, 27%);
+    top: 5%;
+  
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+
+}
+img:hover{
+    background: white;
+}
+.t1{
+    color:  hsl(0, 0%, 100%);
+    font-size: 1rem;
+    font-weight: 600;
+}
+p .t1:hover{
+    color: hsl(178, 100%, 50%);
+    }
+.t2{
+   color:  hsl(215, 51%, 70%);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.icn{
+  
+  
+    font-size: 0.8rem;
+    width: 100%;
+   
+}
+.icn span{
+    margin-right: 0.2em;
+}
+.ic1{
+    float: left;
+    color:  hsl(178, 100%, 50%);
+    
+}
+.ic2{
+    float: right;
+    color: hsl(215, 51%, 70%);
+}
+.res{
+    width: 100%;
+    min-width: 162px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  
+    align-items: flex-end;
+    align-content: center;
+    position: relative;
+    bottom: 1.9em;
+    font-size: 0.75rem;
+    font-weight: 300;
+    color:hsl(215, 51%, 70%) ;
+    
+}
+.res span{
+    align-content: center;
+   
+}
+.name{
+    color: hsl(0, 0%, 100%);
+   
+}
+.res img{
+   
+    width: 1.55em;
+    height: auto;
+    position: relative;
+    right: 10%;
+    border: solid 0.01em hsl(0, 0%, 100%);
+    border-radius: 50%;
+  
+}
+ .name:hover{
+color: hsl(178, 100%, 50%);
+}
+
