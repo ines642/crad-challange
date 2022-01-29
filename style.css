@@ -30,7 +30,7 @@ body{
     border-radius: 5%;
     box-shadow: 0 10px 10px 10px hsl(216, 71%, 8%);
     z-index: 1;
-    min-width: 188px;
+    min-width: 250px;
     min-height: 407px;
     
   
@@ -88,7 +88,7 @@ p .t1:hover{
 }
 .res{
     width: 100%;
-    min-width: 162px;
+    min-width: 172px;
     height: auto;
     display: flex;
     justify-content: center;
